@@ -3,6 +3,7 @@
 ## App: CPU Stress Test
 #### Description
 This will stress test all 4 CPUs to 100%
+
 Every 10s it will print output of:
 ```
 vcgencmd measure_clock arm
