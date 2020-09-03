@@ -18,6 +18,11 @@ sh setup.sh
 cd cpu-stress-test
 ./run.sh
 ```
+#### Output Example
+```
+frequency(48)=600117184
+temp=61.0'C
+```
 
 ## App: RPi Status
 #### Description
@@ -35,6 +40,22 @@ sh setup.sh
 #### Run
 ```bash
 rpi-status
+```
+#### Output Example
+```
+Status: 0x20000
+Undervolted:
+   Now: NO
+   Run: NO
+Throttled:
+   Now: NO
+   Run: NO
+Frequency Capped:
+   Now: NO
+   Run: YES
+Softlimit:
+   Now: NO
+   Run: NO
 ```
 
 ## Credits
